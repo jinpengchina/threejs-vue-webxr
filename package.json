@@ -6,7 +6,9 @@
     "node": "16.x"
   },
   "scripts": {
-    "start": "vite preview",
+    "start": "vite preview --port $PORT --host 0.0.0.0",
+
+
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
@@ -16,10 +18,8 @@
     "three": "^0.148.0",
     "vercel": "^28.15.0",
     "vue": "^3.2.45",
-    "vue-router": "^4.1.6"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^4.0.0",
-    "vite": "^4.0.0"
+    "vue-router": "^4.1.6",
+    "vite": "^4.0.0",
+    "@vitejs/plugin-vue": "^4.0.0"
   }
 }
